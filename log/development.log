@@ -3846,3 +3846,13 @@ Processing by PostsController#new as HTML
 Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/authors/4/posts/new" for 98.115.108.8 at 2020-06-26 00:59:03 +0000
+Cannot render console from 98.115.108.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"author_id"=>"4"}
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (1.2ms)
+  Rendered posts/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
